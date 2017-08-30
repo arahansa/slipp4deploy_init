@@ -22,6 +22,17 @@ repositories {
 }
 
 
+jar {
+	baseName 'application'
+}
+
+task print() {
+	doLast{
+		println "github push complete"
+	}
+}
+
+
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter-thymeleaf')
 	compile('org.springframework.boot:spring-boot-starter-web')
