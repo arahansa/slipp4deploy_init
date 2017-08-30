@@ -17,7 +17,7 @@ public class IndexController {
     @GetMapping("/")
     @ResponseBody
     public String index(){
-        return "hello world? :"+msg;
+        return "hello world?! master :"+msg;
     }
 
     @GetMapping("/index")
